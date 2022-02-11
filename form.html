@@ -1,0 +1,125 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@700&display=swap" rel="stylesheet">
+        <title>Form</title>
+       
+        <style> 
+            body{
+                background-color: rgb(184, 184, 226);
+                justify-content: center;
+                align-items: center;    
+                font-family: 'Baloo Bhaijaan 2', cursive;      
+                
+            }    
+
+            table,td{
+                border:1px solid ;  
+                     
+            }                 
+            #main{
+                margin-top:30px ;
+                padding: 15px;
+            }
+            #ustTablo{
+                border:0px;
+                background-color: black;
+                color: white;
+                
+            }    
+            textarea{
+                margin-left: 50px;
+                border-radius: 5px;
+            }
+            input {margin-left: 30px;
+                border-radius: 10px;
+                box-shadow: grey;
+
+            }
+           .form{
+               padding-left: 600px;
+
+           }
+           select{
+               margin-left:40px ;
+           }
+           ul{
+               margin-left: 35px;
+               margin-top: 0px;
+           }        
+          #onayla{
+            margin-left: 50px;
+          }
+          #select{
+              margin-left: 100px;
+              
+          }
+          #hobilerimiz{
+           position:relative ;
+
+          }
+          table{
+              outline: none;
+              border-width: 10px;
+              border-style: solid;
+          }
+          input.reset{
+              background-color: green;
+              color: honeydew;
+
+          }     
+          .reset{
+              min-width: 75px;
+              margin-left: 75px;
+          }
+          .adbol{
+              margin-top:25px;
+              float: left;
+          }
+          
+         
+        </style>
+
+    </head>
+         <body>
+             <div class="form">
+                 <div>  <img  src="image/profile.png" width="100px" height="100px" alt=""><a href="https://bnet.detaysoft.com">https://bnet.detaysoft.com</a></div>
+                <div id="main">
+                                Username: <input placeholder="Kullanıcı adınızı giriniz.." type="text">
+                                <p></p>      
+                
+                                 Password   : <input placeholder="Şifrenizi Giriniz.." type="password" name="" id="">
+                                 <p></p>
+                                 Hobilerimiz  : <input type="checkbox" name="" id=""> Müzik
+                                 <input type="checkbox" name="" id="">Sinema
+                                 <input type="checkbox" name="" id="">Tiyatro
+                                 <p></p>
+                               <div class="adbol">  Adres    :</div> <textarea placeholder="Adresinizi giriniz.." name="" id="" cols="30" rows="5"></textarea>
+                                <p></p>
+                               <div class="adbol"> Bölüm     :</div>  <select multiple name="" id="select">
+                                    <option value="bilisim">Bilişim</option>
+                                    <option value="muhasebe">Muhasebe</option>
+                                    <option value="pazarlama">Pazarlama</option>
+                                </select>  
+                                <p></p>
+                                <p></p>
+                                <input class="reset" type="reset" value="sil"><input class="reset" type="submit" value="gönder">
+                                <p></p>
+                                <div class="Adsoyad"> <table > 
+                                    <tr id="ustTablo">
+                                           <td >Adı</td>
+                                           <td>Soyadı</td>
+                                           <td>Telefon</td>            
+                                    </tr>
+                                    <tr>
+                                         <td>Ahmet</td>
+                                         <td>Mehmet</td>
+                                         <td>0555 555 55 55</td>
+                                </tr>
+                                </table> </div>             
+                </div>               
+
+            </div> 
+        </body>
+</html>
